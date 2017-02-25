@@ -1,4 +1,4 @@
-var songsterr_Endpoint_URL = 'http://www.songsterr.com/a/wa/';
+var songsterr_Endpoint_URL = 'https://www.songsterr.com/a/rest/';
 
 function getDataFromSongsterr (artistName, callback){
 	var query = {
@@ -11,7 +11,7 @@ function displaySearchResults(data){
 	var resultElement = '';
 	if(data.items){
 		data.items.forEach(function(item){
-			resultElement += '<a href="https://www.songsterr.com/a/wa/bestMatchForQueryString?a='+item.id + 'inst=bass"></a>'
+			resultElement += '<a href="https://www.songsterr.com/a/wa/artist?id='+item.id+'"></a>'
 		});
 	}
 	else{
@@ -25,6 +25,7 @@ function eventHandler(){
 		e.preventDefault();
 		var query = $(this).find('#artist_name').val();
 		getDataFromSongsterr(query, displaySearchResults);
+		console.log($('#artist_name'));
 	});
 }
 
