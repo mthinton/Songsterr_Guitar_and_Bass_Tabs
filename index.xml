@@ -15,8 +15,11 @@
 <button class='js_submit_button' type='submit'>Submit! Tabs want to be with you</button>
 </form>
 
-<div class='results_section'>
+<h1>Are you alive?</h1>
 
+<div class='results_section'>
+	<a href='https://www.google.com'>Google</a>;
+	<h1>Are you alive?</h1>
 </div>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
