@@ -28,12 +28,6 @@ label{
 	background-attachment:fixed;
 
 }
-.outer-body{
-	background-image: url('https://media.livenation.com/bos/e5/ee/bc/f4e05b915b827ddb8e656ac6de7a7795b5.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment:fixed;
-}
 
 .example{
 	height: 200px;
@@ -69,10 +63,6 @@ img{
 	border-radius: 2px;
 }
 
-.hidden{
-	display: none;
-}
-
 .opening_scene{
 	text-align: center;
 	font-family: 'Droid Sans', sans-serif;
@@ -103,9 +93,6 @@ img{
 	font-size: 150%;
 }
 
-.scene{
-	text-align: center;
-}
 
 .the_search{
 	color: #cc5500;
