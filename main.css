@@ -1,0 +1,137 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+s
+    *{
+    	box-sizing: border-box;
+    }
+
+ body{
+ 	background-color: grey;
+ }
+
+label{
+	color: white;
+
+}
+
+.container{
+	background-image: url('https://media.livenation.com/bos/e5/ee/bc/f4e05b915b827ddb8e656ac6de7a7795b5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+
+}
+.outer-body{
+	background-image: url('https://media.livenation.com/bos/e5/ee/bc/f4e05b915b827ddb8e656ac6de7a7795b5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+.example{
+	height: 200px;
+	padding: 15px;
+	margin-top: 100px;
+	margin-right: 625px;
+	}
+
+.Lets_go{
+	background-color: #cc5500;
+	color: #C8A79A;
+	border-radius: 10px;
+	width: 30%;
+	height: 50px;
+	font-size: 20px;
+	margin-top: 15px;
+	margin-bottom: 100px;
+}
+
+a{
+	color: #cc5500;
+	font-size: 100%;
+	font-style: bold;
+}
+
+h1{
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+}
+
+img{
+	border-radius: 2px;
+}
+
+.hidden{
+	display: none;
+}
+
+.opening_scene{
+	text-align: center;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 150%;
+	color: #cc5500;
+}
+
+.Explain{
+	font-family: 'Droid Sans', sans-serif;
+	color: #cc5500;
+	font-size: 25px;
+	text-align: center;
+	text-shadow: 2px;
+}
+
+#horizontal
+{
+ width: 90%;
+ border-top: 1px solid black;
+ margin: 0 auto;
+ margin-top: 20px;
+}
+
+.second_act{
+	font-family: 'Droid Sans', sans-serif;
+	margin-top: 300px;
+	text-align: center;
+	font-size: 150%;
+}
+
+.scene{
+	text-align: center;
+}
+
+.the_search{
+	color: #cc5500;
+	margin-right: 250px;
+	padding: 15px;
+}
+
+#artist_name{
+	line-height: 20px;
+	border-radius: 2px
+	box-shadow:inset 0 0 5px 5px #888;
+  	background: #fff;
+}
+
+.js_submit_button{
+	background-color: #cc5500;
+	color: #C8A79A;
+	border-radius: 5px;
+	width: 30%;
+	height: 30px;
+	font-size: 15px;
+	margin-bottom: 50px s;
+}
+
+.results_section{
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+}
